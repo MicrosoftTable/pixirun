@@ -1,0 +1,10 @@
+{
+  "name": "pixirun",
+  "version": "1.0.0",
+  "description": "Kawai Run 2 remake for the browser (TypeScript + PixiJS)",
+  "private": true,
+  "scripts": {
+    "build": "esbuild remake/src/main.ts --bundle --minify --outfile=remake/public/game.js --target=es2019 --loader:.json=json",
+    "start": "cd remake/public && python3 -m http.server 8770"
+  }
+}
