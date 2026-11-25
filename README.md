@@ -28,3 +28,5 @@ Then open http://127.0.0.1:8770 in your browser. If you want every skin and hat 
 The code is in `remake/src`, and everything the game loads (art, audio, data and the built `game.js`) is in `remake/public`.
 
 This is a fan project and isn't affiliated with the original game or its creators.
+
+**THIS PROJECT IS NOT FINISHED**
